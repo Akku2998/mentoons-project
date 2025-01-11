@@ -7,6 +7,12 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        primary: "#EC9600",
+      },
+      textColor: {
+        primary: "#EC9600",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
