@@ -1,4 +1,3 @@
-import { Inika } from "next/font/google";
 import { Button, Initials } from "..";
 import { Connect } from "@/app/svgs";
 

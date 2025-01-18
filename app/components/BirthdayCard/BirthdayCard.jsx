@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export const BirthdayCard = () => {
   return (
@@ -11,9 +12,11 @@ export const BirthdayCard = () => {
           alt="birthday sticker"
         />
         <div className="relative mt-12">
-          <img
+          <Image
+            src="/birthdayCap.png"
+            height={100}
+            width={100}
             className="absolute bottom-2/3 left-16"
-            src="birthdayCap.png"
             alt="birthday cap"
           />
           <img src="birthdayBoy.png" alt="birthday boy" />

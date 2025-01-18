@@ -1,6 +1,7 @@
 "use client";
 
 import { Location } from "@/app/svgs";
+import Image from "next/image";
 
 export const Footer = () => {
   return (
@@ -30,19 +31,29 @@ export const Footer = () => {
           </div>
           <div className="flex gap-2">
             <a href="#">
-              <img src="Linkedin.png" alt="Linkedin" />
+              <Image
+                src="/Linkedin.png"
+                height={45}
+                width={45}
+                alt="Linkedin"
+              />
             </a>
             <a href="#">
-              <img src="Facebook.png" alt="Facebook" />
+              <Image
+                src="/Facebook.png"
+                height={45}
+                width={45}
+                alt="Facebook"
+              />
             </a>
             <a href="#">
-              <img src="Insta.png" alt="Insta" />
+              <Image src="/Insta.png" height={45} width={45} alt="Insta" />
             </a>
             <a href="#">
-              <img src="Youtube.png" alt="yooutube" />
+              <Image src="/Youtube.png" height={45} width={45} alt="yooutube" />
             </a>
             <a href="#">
-              <img src="Whtsp.png" alt="Whatsapp" />
+              <Image src="/Whtsp.png" height={45} width={45} alt="Whatsapp" />
             </a>
           </div>
         </div>
@@ -139,11 +150,27 @@ export const Footer = () => {
       </div>
 
       <div className="flex w-full justify-center gap-8">
-        <img src="activelistener.png" alt="Active Listener" />
-        <img src="toonland.png" alt="Toonland" />
-        <img src="storyclub.png" alt="Story Club" />
-        <img src="cxobranding.png" alt="CXO Branding" />
-        <img src="propellingstory.png" alt="Propelling Stories" />
+        <Image
+          src="/activelistener.png"
+          height={150}
+          width={150}
+          alt="Active Listener"
+        />
+        {/* <img src="activelistener.png" alt="Active Listener" /> */}
+        <Image src="/toonland.png" height={120} width={120} alt="Toonland" />
+        <Image src="/storyclub.png" height={120} width={120} alt="Story Club" />
+        <Image
+          src="/cxobranding.png"
+          height={120}
+          width={120}
+          alt="CXO Branding"
+        />
+        <Image
+          src="/propellingstory.png"
+          height={120}
+          width={120}
+          alt="Propelling Stories"
+        />
       </div>
 
       <img
